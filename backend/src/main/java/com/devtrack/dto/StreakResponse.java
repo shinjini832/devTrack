@@ -2,17 +2,17 @@ package com.devtrack.dto;
 
 public class StreakResponse {
 
-    private int streak;
+    private int currentstreak;
 
-    public StreakResponse(int streak) {
-        this.streak = streak;
+    public StreakResponse(int currentstreak) {
+        this.currentstreak = currentstreak;
     }
 
-    public int getStreak() {
-        return streak;
+    public int getCurrentstreak() {
+        return currentstreak;
     }
 
-    public void setStreak(int streak) {
-        this.streak = streak;
+    public void setCurrentstreak(int streak) {
+        this.currentstreak = currentstreak;
     }
 }
