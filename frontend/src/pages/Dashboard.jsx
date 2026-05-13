@@ -47,7 +47,7 @@ const userId = user?.id;
         `/logs/streak/${userId}`
       );
 
-      setStreak(response.data.currentStreak);
+      setStreak(response.data.currentstreak);
 
     } catch (err) {
 
