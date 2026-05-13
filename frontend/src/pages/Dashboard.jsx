@@ -225,9 +225,9 @@ const userId = user?.id;
 
             <input
               type="text"
-              name="description"
+              name="notes"
               placeholder="Description"
-              value={formData.description}
+              value={formData.notes}
               onChange={handleChange}
               className="w-full border p-3 rounded-lg mb-4"
               required
