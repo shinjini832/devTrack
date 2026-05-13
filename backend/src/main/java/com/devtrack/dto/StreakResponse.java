@@ -1,24 +1,18 @@
 package com.devtrack.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-
-@Data
-@AllArgsConstructor
 public class StreakResponse {
 
-    public StreakResponse(int currentStreak) {
-		super();
-		this.currentStreak = currentStreak;
-	}
+    private int streak;
 
-	private int currentStreak;
+    public StreakResponse(int streak) {
+        this.streak = streak;
+    }
 
-	public int getCurrentStreak() {
-		return currentStreak;
-	}
+    public int getStreak() {
+        return streak;
+    }
 
-	public void setCurrentStreak(int currentStreak) {
-		this.currentStreak = currentStreak;
-	}
+    public void setStreak(int streak) {
+        this.streak = streak;
+    }
 }
