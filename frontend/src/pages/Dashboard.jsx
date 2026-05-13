@@ -21,7 +21,7 @@ const userId = user?.id;
   const [logs, setLogs] = useState([]);
 
   const [formData, setFormData] = useState({
-    description: "",
+    notes: "",
     hoursCoded: "",
     tasksCompleted: "",
     date: "",
@@ -142,7 +142,7 @@ const userId = user?.id;
       fetchLogs();
 
       setFormData({
-        description: "",
+        notes: "",
         hoursCoded: "",
         tasksCompleted: "",
         date: "",
@@ -320,7 +320,7 @@ const userId = user?.id;
             </td>
 
             <td className="p-3">
-              {log.description}
+              {log.notes}
             </td>
 
             <td className="p-3">
